@@ -51,7 +51,7 @@ const media = window.matchMedia("(max-width: 500px)").matches;
 media ? console.log(10) : console.log(15);
 console.log(media);
 const animateScroll = document.querySelectorAll(".scroll");
-let metade = innerHeight * 0.6;
+let metade = innerHeight * 0.9;
 function activeSection() {
   animateScroll.forEach((item) => {
     const section = item.getBoundingClientRect().top - metade;
